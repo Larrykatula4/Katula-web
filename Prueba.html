@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ejemplo Menú</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f4f4;
+    }
+    nav {
+      background: #333;
+      color: white;
+      position: relative;
+      padding: 0.5rem;
+    }
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+    }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+      }
+      .nav-links.show {
+        display: flex;
+      }
+      .menu-toggle {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+  <div class="nav-links" id="navLinks">
+    <a href="Katula-web-2.0.html">Inicio</a>
+    <a href="acerca-de.html">Acerca de</a>
+    <a href="#contactanos">Contáctanos</a>
+    <a href="#parcial-1">Parcial 1</a>
+    <a href="#segundo-parcial">Parcial 2</a>
+    <a href="#recursos-adicionales">Recursos Adicionales</a>
+  </div>
+</nav>
+
+<script>
+  const toggleButton = document.querySelector('.menu-toggle');
+  const navLinks = document.getElementById('navLinks');
+
+  toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>

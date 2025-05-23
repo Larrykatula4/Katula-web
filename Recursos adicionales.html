@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página sobre Cultura Digital 2">
+    <title>Cultura Digital 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+              font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('cultura-digital-en-las-organizaciones.jpg'); /* tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* para que quede fija al hacer scroll */
+    background-repeat: no-repeat;
+    color: #333;
+        }
+
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+            position: relative;
+            width: 100% 
+            height: 200px;
+            padding-bottom: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu-toggle {
+            display: block;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+        }
+
+      @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        text-align: center;
+        padding: 1rem 0;
+        z-index: 1000;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 1100; /* Asegura que esté por encima */
+    }
+}
+
+  section {
+            padding: 2rem;
+            margin: 1rem auto;
+            background: white;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+
+        h1 {
+            margin-bottom: 2rem;
+            color: #ffffff;
+        }
+
+        h2, h3 {
+            color: #0078d7;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        footer {
+  background: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: left;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  color: #00bfff;
+  margin-bottom: 0.5rem;
+  text-align: center; /* ✅ centrado solo el título */
+}
+
+.footer-column a {
+  color: #00bfff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+        
+.img-flotante {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  width: 250px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.img-final {
+  display: block;
+  margin: 5rem auto 0 auto;
+  max-width: 100%;
+  height: 500px;
+  border-radius: 8px;
+}
+
+
+.subtitulo {
+  color: #0078d7;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+    </style>
+</head>
+<body>
+  <header>
+        <h1>Cultura digital 2</h1>
+        <p>Explorando los temas clave de la era digital</p>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Inicio</a>
+            <a href="Acerca-de.html">Acerca de</a>
+            <a href="Trabajos.html">Trabajos</a>
+            <a href="Recursos adicionales.html">Recursos adicionales</a>
+            <a href="Contáctanos.html">Contáctanos</a>
+        </div>
+    </nav>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    toggleButton.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  });
+</script>
+
+<section>
+  <h2>Recursos adicionales</h2>  
+  <h3 class="subtitulo" tyle="text-align: left;">Chatgpt</h3>
+  <a>ChatGPT es un modelo de inteligencia artificial desarrollado por OpenAI que está diseñado para comprender y generar texto de manera natural, como si estuvieras conversando con una persona. Puede ayudarte con tareas como:</a>
+  <ul>
+    <li>Responder preguntas</li>
+    <li>Explicar conceptos</li>
+    <li>Escribir texto, resumenes o correos</li>
+    <li>Traducir idiomas</li>
+    <li>Reasolver problemas matematicos o de programacion</li>
+    <li>Dar ideas creativas o ayudarte con tareas escolares</li>
+  </ul>
+  <a>ChatGPT se basa en una tecnología llamada modelo de lenguaje (específicamente, una versión de la serie GPT – Generative Pre-trained Transformer), que ha sido entrenada con una gran cantidad de información para poder entender el lenguaje humano y generar respuestas coherentes.</a>
+
+  <p><a href="https://www.instagram.com/tu_usuario" target="_blank">Entra aqui</a></p>
+  <img src="Chatgpt.png" alt="Chatpgt" style="display: block; margin: auto;">
+  <h4 class="subtitulo">VS Code</Code></h4>
+  <p>Visual Studio Code, conocido como VSCode, es un editor de código creado por Microsoft que se ha vuelto muy popular entre los programadores. Es una herramienta gratuita y ligera que permite escribir y editar código en muchos lenguajes diferentes, como JavaScript, Python, HTML o CSS. Lo que lo hace especial es que ofrece funciones inteligentes como autocompletado, ayuda para detectar errores y la posibilidad de depurar programas directamente dentro del editor. Además, puede personalizarse con extensiones para adaptarse a las necesidades de cada desarrollador. VSCode también facilita el trabajo en equipo al integrarse con sistemas de control de versiones como Git. En pocas palabras, es un espacio donde los programadores pueden crear, modificar y mejorar su código de manera más rápida y organizada.</p>
+   <p><a href="https://code.visualstudio.com" target="_blank">Entra aqui</a></p>
+   <img src="VS Code.png" alt="VS Code" style="display: block; margin: auto;">
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Sobre nosotros</h4>
+      <ul>
+        <li>El Instituto Libertad es una institución educativa en México que fomenta la capacidad de juicio del estudiante y multiplica su inteligencia.</li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Links utiles</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Acerca-de.html">Acerca de</a></li>
+        <li><a href="Trabajos.html">Trabajos</a></li>
+        <li><a href="Recursos adicionales.html">Recursos adicionales</a></
+        <li><a href="Contáctanos.html">Contáctanos</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Recursos adicionales</h4>
+      <ul>
+        <li><p><a href="https://www.instagram.com/tu_usuario" target="_blank">Chat GPT></a></p></li>
+        <li><a href="https://code.visualstudio.com" target="_blank">VS Code</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Redes Sociales</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/aa_larrykatula/?hl=es">@AA_LarryKatula</a></li>
+        <li><a href="https://www.instagram.com/papa_pichon/?hl=es">@Papa_Pichon</a></li>
+        <li><p><a href="tel:+5216442390551">+52 1 644 239 0551</a></p></li>
+      </ul>
+    </div>
+  </div>
+  <p>&copy; 2025 Cultura Digital 2. Todos los derechos reservados.</p>
+</footer>
+
+</body>

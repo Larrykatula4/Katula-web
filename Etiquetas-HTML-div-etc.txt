@@ -1,0 +1,27 @@
+ <h2>Guías Prácticas</h2>
+    <p>Accede a guías detalladas sobre los temas vistos en el curso.</p>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=IffiTrRZR4E&t=2s" target="_blank">Guía de diagramas de flujo (Video)</a></li>
+        <li><a href="https://eduteka.icesi.edu.co/articulos/HerramientasDigitales" target="_blank">Uso de herramientas digitales (Artículo)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3GqUM4mEYKA" target="_blank">Principios de diseño gráfico (Video)</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">Introducción a HTML y CSS (Tutorial)</a></li>
+    </ul>
+    
+    <h2>Recursos Adicionales</h2>
+    <table border="1">
+        <tr>
+            <td>Recurso</td>
+            <td>Enlace</td>
+        </tr>
+        <tr>
+            <td>Curso de HTML y CSS</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML">MDN Web Docs</a></td>
+        </tr>
+        <tr>
+            <td>Diagramas de Flujo</td>
+            <td><a href="https://www.lucidchart.com/pages/es/que-es-un-diagrama-de-flujo">Lucidchart</a></td>
+        </tr>
+    </table>
+    
+    <h2>Imagen Representativa</h2>
+    <img src="Cultura Digital Representacion.jpg" width="800" alt="Ejemplo de Cultura Digital"> 

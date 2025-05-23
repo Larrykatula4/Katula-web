@@ -1,0 +1,228 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cultura Digital II</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style> body {
+ background-color: #F4F4F4;
+ font-family: Arial, sans-serif;
+ margin: 20px;
+
+}
+ h1 {
+ color: #9678C8;
+ text-align: center;
+ line-height: 1.6;
+ font-size: 50px;
+
+}
+ h2 {
+ color: ##9678C8;
+
+}
+ p {
+ color: #2E4A7D;
+ text-align: justify;
+ line-height: 1.6;
+
+}
+ ul, ol {
+ margin-lea: 20px;
+
+}
+ ul {
+ list-style-type: square;
+
+}
+ ol {
+ list-style-type: upper-roman;
+
+}
+ table { width: 100%;
+ border-collapse: collapse; 
+ margin-top: 20px;
+
+}
+ table, th, td {
+ border: 5px solid #70C6FF;
+
+}
+ th, td {
+ padding: 10px;
+ text-align: center;
+
+}
+ th {
+ background-color: #40E0D0;
+ color: white;
+
+}
+ a {
+ color: #2E4A7D;
+ text-decoration: none;
+
+}
+ a:hover {
+ text-decoration: underline;
+
+}
+ img {
+ display: block;
+ margin: 20px auto;
+ border: 2px solid #2E4A7D;
+
+}
+ </style>
+</head>
+<body>
+    <h1>Cultura Digital II</h1>
+    <p>Bienvenido al sitio web sobre Cultura Digital II. Aquí encontrarás información clave sobre el curso la cual te ayudara a entender mejor los temas vistos en clase, o en dado caso a estudiar para los examenes.</p>
+     
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Sitio Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="inicio">
+        <h1>Bienvenido a la página de inicio</h1>
+        <p>
+¡Hola y bienvenido! En este espacio, exploraremos juntos los conceptos y habilidades que hemos trabajado en el curso de Cultura Digital 2, un área fundamental en el mundo actual. Este semestre ha sido una oportunidad para adentrarnos en los temas que conforman la base de nuestra interacción con el entorno digital, y cómo esta interacción afecta la educación, la creatividad, y nuestra vida cotidiana en general.</p>
+
+<p>A lo largo de este semestre, hemos aprendido a representar procesos y algoritmos a través de los <strong>diagramas de flujo</strong>, una herramienta esencial no solo en programación, sino también en la resolución de problemas en diversas disciplinas. Los diagramas de flujo nos permiten visualizar y organizar de manera clara y concisa las secuencias de pasos que componen un proceso, lo que facilita su comprensión y comunicación. Esta habilidad es crucial en la programación, donde entender cómo interactúan los distintos componentes de un sistema es fundamental.
+</p>
+<p>Además, hemos profundizado en las <strong>herramientas digitales para el aprendizaje</strong>, explorando cómo las aplicaciones y plataformas en línea transforman la educación. Desde entornos de aprendizaje virtual hasta recursos interactivos, estas herramientas nos permiten ampliar nuestras fronteras de conocimiento y acceder a una variedad de fuentes educativas, lo que facilita un aprendizaje más dinámico y accesible. El dominio de estas herramientas es indispensable en la era digital, donde la tecnología está cada vez más presente en los procesos educativos.</p>
+<p>Otro tema clave que cubrimos fue la <strong>guía de diseño gráfico básico</strong>. A lo largo de nuestras lecciones, entendimos los principios fundamentales del diseño visual y cómo estos principios son aplicables en la creación de sitios web, gráficos e interfaces digitales. Aprender los fundamentos del diseño nos permitió no solo mejorar nuestra creatividad, sino también entender cómo la estética y la funcionalidad trabajan de la mano para crear experiencias digitales atractivas y efectivas.</p>   
+<p>La <strong>alfabetización digital</strong> fue otro aspecto importante que abordamos. En un mundo cada vez más conectado, es esencial no solo saber usar dispositivos tecnológicos, sino también comprender los riesgos y oportunidades que el entorno digital ofrece. A través de este tema, aprendimos a navegar de manera segura en internet, reconocer la desinformación, y a proteger nuestra privacidad, habilidades necesarias para ser ciudadanos digitales responsables.</p>
+<p>Nos adentramos también en los <strong>fundamentos de la programación en HTML y CSS</strong>, dos lenguajes esenciales para la creación de páginas web. En HTML, aprendimos cómo estructurar contenidos, utilizando etiquetas y atributos para definir la organización de una página. Por otro lado, CSS nos permitió personalizar la apariencia visual de esas páginas, desde los colores y tipografías hasta el diseño de los elementos y las interacciones. Estos dos lenguajes son la base de cualquier sitio web y esenciales para cualquiera que quiera ser parte activa del mundo digital.</p>
+<p>Finalmente, a lo largo de este curso, también aplicamos lo aprendido en <strong>guías prácticas</strong>. Estos proyectos nos ofrecieron la oportunidad de integrar todo el conocimiento adquirido y aplicar las herramientas de manera creativa. Estos proyectos nos ayudaron a consolidar nuestra comprensión de los temas y a experimentar de primera mano la importancia de ser creativos y técnicos al mismo tiempo.</p> 
+<p>Espero que disfrutes de este espacio y encuentres útil toda la información que he preparado. A lo largo de este curso, hemos aprendido a ser más que consumidores de tecnología; hemos aprendido a ser creadores activos en el mundo digital. Este conocimiento nos prepara no solo para el futuro académico, sino también para enfrentarnos al mundo profesional, donde las habilidades digitales son cada vez más esenciales.</p>
+<p><strong>¡Bienvenido y que disfrutes el viaje digital!</strong></p>
+
+</div>
+
+    <div id="acerca">
+        <h1>Acerca de</h1>
+        <p>Cultura Digital 2 es una asignatura enfocada en el aprendizaje y la aplicación de herramientas digitales clave que facilitan tanto el desarrollo de habilidades tecnológicas como la comprensión de su impacto en la educación y el mundo digital. Durante este semestre, hemos abordado una variedad de temas fundamentales que nos han permitido explorar el amplio campo de la cultura digital. Entre los temas principales, se incluyen:
+<ul>
+        <li><strong>Diagramas de Flujo:</strong> Una introducción a los diagramas de flujo como herramienta esencial en la representación de procesos y algoritmos. Aprendimos a diseñar y analizar flujos de trabajo de manera visual para mejorar la comprensión y resolución de problemas.</li>
+        <li><strong>Herramientas Digitales para el Aprendizaje:</strong> Estudiamos diversas herramientas tecnológicas que potencian el proceso de aprendizaje, desde plataformas educativas hasta aplicaciones colaborativas que fomentan la interactividad y el aprendizaje autónomo.</li>
+        <li><strong>Guía de Diseño Gráfico Básico:</strong> En este tema, exploramos los principios fundamentales del diseño gráfico, aprendiendo a crear y aplicar elementos visuales en proyectos digitales, incluyendo la elección de tipografía, color y composición para una presentación efectiva.</li>
+        <li><strong>Alfabetización Digital:</strong> Desarrollamos competencias esenciales para navegar en el mundo digital, abordando aspectos clave como el manejo de información en línea, la seguridad y privacidad digital, y cómo ser consumidores y creadores responsables de contenido digital.</li>
+        <li><strong>Fundamentos de Programación en HTML:</strong> Nos adentramos en el mundo del desarrollo web, aprendiendo las bases del lenguaje HTML, que es fundamental para estructurar y organizar el contenido de las páginas web.</li>
+        <li><strong>Fundamentos de Programación en CSS:</strong> Aprendimos los principios básicos de CSS, que nos permiten darle estilo a las páginas web, manejando elementos como los colores, las fuentes y la disposición de los elementos en una página web.</li>
+        <li><strong>Guías Prácticas:</strong> Creamos guías paso a paso para aplicar los conocimientos adquiridos, lo que nos permitió consolidar nuestras habilidades y resolver problemas reales a través de proyectos prácticos.</li>
+</ul>
+
+En este curso, nuestro objetivo es adquirir no solo las habilidades técnicas necesarias para usar herramientas digitales, sino también comprender cómo la tecnología puede ser utilizada para mejorar nuestra vida diaria, tanto en el ámbito personal como académico. ¡Es hora de sumergirnos en el mundo digital y descubrir todo lo que tiene para ofrecernos!
+
+        </p>
+    </div>
+
+    <div id="contacto">
+        <h1>Contacto</h1>
+        <p>Detalles de contacto.
+<li><strong>Numero telefonico:</strong> +52 1 644 239 0551
+<li><strong>Correo electronico:</strong> danny.quiroz.navarro@gmail.com
+<li><strong>Correo electronico alternativo:</strong> invasordeguarderias@gmail.com  
+</p>
+    </div>
+    
+    <h2>Primer Parcial</h2>
+    <h3>Diagramas de Flujo</h3>
+    <p>Un diagrama de flujo es una representación visual de un proceso, sistema o algoritmo. Permite mostrar de manera clara las etapas o pasos a seguir en un procedimiento. Cada paso se representa con un símbolo específico, y las conexiones entre ellos se muestran mediante flechas. Los diagramas de flujo son muy útiles para planificar proyectos, mejorar procesos y enseñar programación, ya que facilitan la comprensión de flujos complejos de manera simple.</p>
+    <p>Los símbolos comunes incluyen:</p>
+    <ul>
+        <li>Óvalo: Inicio o fin del proceso.</li>
+        <li>Rectángulo: Acción o paso en el proceso.</li>
+        <li>Rombo: Decisión o condición.</li>
+        <li>Flechas: Conectan las etapas y muestran el flujo del proceso.</li>
+    </ul>
+    <h3>Herramientas Digitales para el Aprendizaje</h3>
+    <p>Las herramientas digitales son recursos tecnológicos que apoyan el aprendizaje. Estas incluyen plataformas de gestión del aprendizaje (LMS) como Moodle, Google Classroom o Blackboard, aplicaciones interactivas para aprender matemáticas, idiomas, ciencias, entre otras, y recursos multimedia como videos, podcasts y tutoriales en línea. Además de facilitar el acceso a materiales educativos, estas herramientas también permiten la colaboración entre estudiantes y profesores a través de foros, videoconferencias y trabajos compartidos.</p>
+    <p>Algunas herramientas populares son:</p>
+    <ul>
+        <li>Kahoot: Para hacer quizzes interactivos.</li>
+        <li>Duolingo: Para aprender idiomas.</li>
+        <li>Quizlet: Para crear tarjetas didácticas.</li>
+    </ul>
+
+    <h3>Guía de Diseño Gráfico Básico</h3>
+    <p>El diseño gráfico es una disciplina visual que se utiliza para comunicar ideas, emociones y mensajes a través de imágenes, texto y formas.</p>
+    <p>El diseño gráfico básico cubre principios esenciales como:</p>
+    <ul>
+        <li>Composición: Cómo organizar elementos visuales de manera atractiva y funcional.</li>
+        <li>Color: La teoría del color ayuda a elegir paletas que complementen el mensaje.</li>
+        <li>Tipografía: El estilo de letras puede transmitir diferentes emociones y hacer que la comunicación sea más efectiva.</li>
+        <li>Jerarquía Visual: El orden en que los elementos son vistos, asegurando que la información más importante resalte.</li>
+        <li>Espacio en blanco: El uso adecuado del espacio vacío para evitar el desorden y hacer el diseño más legible.</li>
+    </ul>
+    <h3>Alfabetización Digital</h3>
+    <p>La alfabetización digital se refiere a la capacidad de utilizar dispositivos tecnológicos y navegar por internet de manera competente. Va más allá de simplemente saber usar una computadora; incluye habilidades para gestionar la información en línea, reconocer fuentes confiables y mantener la seguridad y privacidad digital.</p>
+    <p>Los aspectos clave de la alfabetización digital incluyen:</p>
+    <ul>
+        <li>Uso de dispositivos: Dominar herramientas como computadoras, tabletas y teléfonos inteligentes.</li>
+        <li>Navegación en línea: Buscar información en internet, utilizando motores de búsqueda y filtros de búsqueda.</li>
+        <li>Evaluación crítica: Ser capaz de identificar la veracidad de la información y detectar fake news.</li>
+        <li>Seguridad en línea: Proteger la información personal y estar al tanto de las amenazas digitales como el phishing o malware.</li>
+    </ul>
+
+    <h2>Segundo Parcial</h2>
+    <h3>Fundamentos de Programación en HTML</h3>
+    <p>HTML es el lenguaje base para estructurar páginas web. Utiliza etiquetas como <code>&lt;h1&gt;</code> para encabezados y <code>&lt;p&gt;</code> para párrafos.</p>
+    
+    <h3>Fundamentos de Programación en CSS</h3>
+    <p>CSS se usa para dar estilo a las páginas web. Permite cambiar colores, fuentes y diseño de los elementos HTML para mejorar la apariencia visual.</p>
+    
+    <h2>Guías Prácticas</h2>
+    <p>Accede a guías detalladas sobre los temas vistos en el curso.</p>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=IffiTrRZR4E&t=2s" target="_blank">Guía de diagramas de flujo (Video)</a></li>
+        <li><a href="https://eduteka.icesi.edu.co/articulos/HerramientasDigitales" target="_blank">Uso de herramientas digitales (Artículo)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3GqUM4mEYKA" target="_blank">Principios de diseño gráfico (Video)</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">Introducción a HTML y CSS (Tutorial)</a></li>
+    </ul>
+    
+    <h2>Recursos Adicionales</h2>
+    <table border="1">
+        <tr>
+            <td>Recurso</td>
+            <td>Enlace</td>
+        </tr>
+        <tr>
+            <td>Curso de HTML y CSS</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML">MDN Web Docs</a></td>
+        </tr>
+        <tr>
+            <td>Diagramas de Flujo</td>
+            <td><a href="https://www.lucidchart.com/pages/es/que-es-un-diagrama-de-flujo">Lucidchart</a></td>
+        </tr>
+    </table>
+    
+    <h2>Imagen Representativa</h2>
+    <img src="Cultura Digital Representacion.jpg" width="400" alt="Ejemplo de Cultura Digital">
+  
+
+    
+    <h2>Derechos</h2>
+    <p>&copy; 2025 Cultura Digital II. Todos los derechos reservados.</p>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
